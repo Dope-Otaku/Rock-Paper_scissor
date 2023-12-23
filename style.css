@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    height: 107px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px 100% 15px 0px ;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 45px;
+    
+    background-color: rgb(235, 23, 235);
+    color: white;
+}
+
+.btn-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rock{
+    background: url(rock.png);
+    height: 186px;
+    width: 303px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: background-color 0.3s ease;
+}
+
+.paper{
+    background: url(paper.png) no-repeat;
+    height: 186px;
+    width: 303px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 33px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: background-color 0.3s ease;
+}
+
+.scissor{
+    background: url(scissors.png) no-repeat;
+    height: 186px;
+    width: 303px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: background-color 0.3s ease;
+}
+
+.rock:hover, .paper:hover, .scissor:hover {
+    background-color: #f2f2f2;
+}
+
+.rock:active, .paper:active, .scissor:active {
+    background-color: #d9d9d9;
+}
+
+.comp-score,.your-score{
+    height: 10px;
+    width: 100px;
+    /* border: 1px solid black; */
+    margin: 0px 23px 15px 23px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btn-score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
